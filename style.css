@@ -1,19 +1,33 @@
-#play_button {
-    width: 130px;
-    font-size: 25px;
+.heading
+{
+  font-size: 23px;
+  width: 100%;
+  margin: 0px;
 }
-
-body {
-    background-size: cover;
+.note
+{
+  font-size: 15px;
+  color: black;
 }
-
-.note {
-    font-size: 15px;
-    color: black;
+body
+{
+  background-size: cover;	
 }
-
-.heading {
-   font-size: 23px;
-   width: 100%;
-   margin: 0px;
+  #song
+  {
+  	font-size: 23px;
+  	margin: 15px;
+  }
+  canvas{
+    width: 300px;
+    height: 300px;
+        border: darkcyan;
+        border-top-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        box-shadow: 10px 10px 10px gray;
+        border-style: solid;
+        border-width: 4px;
+        margin-top: 50px;
 }
